@@ -1,0 +1,54 @@
+div {
+
+}
+/* GRID */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ;
+}
+
+.logo {
+    grid-column: ;
+    grid-row: ;
+    background-color: aqua;
+    
+}
+.navigation {
+    grid-column: ;
+    grid-row: ;
+    background-color: orange
+
+}
+.header {
+    grid-column: ;
+    grid-row: ;
+    background-color: pink;
+}
+.box1 {
+    grid-column: ;
+    grid-row: ;
+    background-color: blue;
+    
+    
+
+}
+.box2 {
+    grid-column: ;
+    grid-row: ;
+    background-color: red;
+    
+    
+}
+.box3 {
+    grid-column: ;
+    grid-row: ;
+    background-color: yellow;
+  
+}
+.footer {
+    grid-column: ;
+    grid-row: ;
+    background-color: green;
+}
