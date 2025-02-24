@@ -1,5 +1,5 @@
 div {
-
+    border: 2px solid gold;
 }
 /* GRID */
 
@@ -10,45 +10,48 @@ div {
 }
 
 .logo {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/4;
+    grid-row: 1/2;
     background-color: aqua;
     
 }
 .navigation {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/4;
+    grid-row: 2/3;
     background-color: orange
 
 }
 .header {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/4;
+    grid-row: 3/4;
     background-color: pink;
 }
-.box1 {
-    grid-column: ;
-    grid-row: ;
-    background-color: blue;
-    
-    
+.intro {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: blueviolet
 
 }
+.box1 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: blue;
+}
 .box2 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 2/3;
+    grid-row: 5/6;
     background-color: red;
     
     
 }
 .box3 {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 3/4;
+    grid-row: 5/6;
     background-color: yellow;
   
 }
 .footer {
-    grid-column: ;
-    grid-row: ;
+    grid-column: 1/4;
+    grid-row: 6/7;
     background-color: green;
 }
