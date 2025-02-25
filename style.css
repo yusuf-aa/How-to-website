@@ -6,6 +6,7 @@ div {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 200px 100px 250px 600px 90px; 
    
 }
 
@@ -55,3 +56,37 @@ div {
     grid-row: 6/7;
     background-color: green;
 }
+html,body {
+
+    background-color: gold
+ }
+ h1 {  
+     color:rgb(255, 255, 255) (57, 57, 197);
+     font-size: 50px; }
+     ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #111010;
+     }
+     
+     li {
+       float: left;
+     }
+     
+     li a {
+       display: block;
+       color: rgb(255, 0, 0);
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+     }
+ 
+     li a:hover:not(.active) {
+       background-color: #111;
+     }
+     
+     .active {
+       background-color: #ffffff;
+     }
